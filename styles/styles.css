@@ -114,7 +114,7 @@ body {
 .footer-div-css {
   background-color: darkslategray;
   width: 100%;
-  height: 10vh;
+  height: 11vh;
   position: absolute;
   bottom: 0;
 }
@@ -137,14 +137,49 @@ body {
   width: 70% !important;
 }
 
-.curso1 {
-  width: 60% !important;
+/* Cambio de tamaño de las imágenes del carrusel de acuerdo a screen size (comportamiento responsive) */
+
+@media only screen and (max-width: 576px)
+{
+  .curso1 {
+    width: 75% !important;
+  }
+  
+  .curso2 {
+    width: 70% !important;
+  }
+  
+  .curso3 {
+    width: 70% !important;
+  }
 }
 
-.curso2 {
-  width: 54% !important;
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+  .curso1 {
+    width: 61% !important;
+  }
+  
+  .curso2 {
+    width: 57% !important;
+  }
+  
+  .curso3 {
+    width: 57% !important;
+  }
 }
 
-.curso3 {
-  width: 54% !important;
+@media only screen and (min-width: 992px)
+{
+  .curso1 {
+    width: 37% !important;
+  }
+  
+  .curso2 {
+    width: 34% !important;
+  }
+  
+  .curso3 {
+    width: 34% !important;
+  }
 }
