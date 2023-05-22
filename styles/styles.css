@@ -7,13 +7,18 @@
 
 /* html y body  */
 
-html,
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background: url("../images/bckg_2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 150px;
 }
 
 /* Estilos propios de navbar */
@@ -108,8 +113,9 @@ body {
 .footer-div-css {
   background-color: darkslategray;
   width: 100%;
-  height: 100%;
-  margin-bottom: 0% !important;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
 }
 
 /* Estilo propio de forms de pestaña asociarse */
