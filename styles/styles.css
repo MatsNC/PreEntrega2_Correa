@@ -79,7 +79,8 @@ body {
 /* Estilo propio de los links para más información de los cursos */
 
 .link-curso {
-  color: blue;
+  color: black;
+  font-weight: bold;
 }
 
 /* Estilo propio de fila inferior donde está el link de más información de los cursos */
